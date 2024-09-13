@@ -1,0 +1,35 @@
+body {
+    background-color: lightgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    margin-inline: 20px;
+    margin-bottom: 50px;
+}
+
+header {
+    background-color: #e44d26;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    margin-inline: -20px;
+    text-align: center;
+}
+
+.introducao {
+    margin-top: 20px;
+
+    ::first-letter {
+        font-size: 2em;
+    }
+}
+
+.semantica {
+    margin-top: 50px;
+}
+
+.exemplos_semantica {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px dashed black;
+    margin-right: 550px;
+}
