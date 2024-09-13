@@ -1,5 +1,6 @@
 body {
-    background: linear-gradient(to right, #e44b9b, #f0ea4a, #60c3e2, #07a79d, #5bb947, #5f7ebf);
+    background: linear-gradient(to right, #FF8C00, #FFD700, #228B22, #00BFFF, #556B2F, #87CEFA,
+            #40E0D0, #FF4500, #228B22, #8B4513, #1E90FF, #F0E68C);
     font-family: 'Courier New', Courier, monospace;
     margin: 0px;
 }
@@ -27,19 +28,25 @@ body {
     margin-inline: 30px;
 }
 
-.continentes{
+.continentes {
     display: flex;
     flex-flow: row wrap;
 }
 
-.america_do_norte{
+.america_do_norte {
     width: 33%;
 }
 
-.america_latina{
+.america_latina {
     padding: 50%;
 }
 
-.europa{
+.europa {
     padding-left: 50%;
+}
+
+.continentes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
