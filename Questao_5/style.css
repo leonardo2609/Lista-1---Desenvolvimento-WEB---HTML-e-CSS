@@ -1,52 +1,90 @@
 body {
-    background: linear-gradient(to right, #FF8C00, #FFD700, #228B22, #00BFFF, #556B2F, #87CEFA,
-            #40E0D0, #FF4500, #228B22, #8B4513, #1E90FF, #F0E68C);
+    background-color: black;
     font-family: 'Courier New', Courier, monospace;
     margin: 0px;
+    color: white;
 }
 
 .cabecalho {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    background-color: white;
     text-align: center;
-    font-size: larger;
+    margin-inline: 200px;
+    border-radius: 50px;
+    font-size: 25px;
+    padding: 2px;
+    margin-top: 20px;
+    color: black;
 }
 
-.titulo_cabecalho {
-    color: black;
-    background-color: white;
-    border-radius: 20px;
-    margin-inline: 100px;
-    padding: 10px;
+.titulo_continente {
+    text-align: center;
+    font-size: 30px;
 }
 
-.escolha {
+.nome {
     text-align: center;
-    background-color: white;
-    color: black;
-    border-radius: 20px;
-    margin-inline: 30px;
 }
 
 .continentes {
-    display: flex;
-    flex-flow: row wrap;
+    margin-top: 25px;
 }
 
-.america_do_norte {
-    width: 33%;
-}
-
-.america_latina {
-    padding: 50%;
-}
-
-.europa {
-    padding-left: 50%;
-}
-
-.continentes {
+.africa {
+    border: 2px dashed white;
+    border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 10px;
+    margin-inline: 20px;
+}
+
+.asia {
+    border: 2px dashed white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-inline: 20px;
+}
+
+.europa {
+    border: 2px dashed white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-inline: 20px;
+}
+
+.america_do_norte {
+    border: 2px dashed white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-inline: 20px;
+}
+
+.america_do_sul {
+    border: 2px dashed white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-inline: 20px;
+}
+
+.oceania {
+    border: 2px dashed white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-inline: 20px;
 }
